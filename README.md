@@ -95,9 +95,8 @@ image scaling and tap-target accessibility at 1440, 1024, 768 and 375 px widths.
 See the `02_Screenshots` folder of the submission (desktop and mobile captures).
 
 ## Figma link
-
-`https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Interface?t=nlPsBfK9k6hs6fEQ-20&fullscreen=1` —  Figma prototype URL .
+figma link: [Figma](https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Interface?t=nlPsBfK9k6hs6fEQ-20&fullscreen=1)` —  Figma prototype URL .
 
 ## Live demo link
 
- deployed URL  "[Github](https://github.com/atulyakumarece26-bit/UIUX_Frontend_Task_Atulya_Kumar)"  here  published.
+ deployed URL:  "[Github](https://github.com/atulyakumarece26-bit/UIUX_Frontend_Task_Atulya_Kumar)"  here  published.
