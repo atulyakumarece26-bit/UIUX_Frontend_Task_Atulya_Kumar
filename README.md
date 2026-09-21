@@ -96,7 +96,7 @@ See the `02_Screenshots` folder of the submission (desktop and mobile captures).
 
 ## Figma link
 
-`01_Figma_Design/Figma_Link.txt` —  Figma prototype URL .
+`https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Interface?t=nlPsBfK9k6hs6fEQ-20&fullscreen=1` —  Figma prototype URL .
 
 ## Live demo link
 
