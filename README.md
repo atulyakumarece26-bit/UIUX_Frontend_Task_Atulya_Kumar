@@ -101,7 +101,7 @@ figma link: [Figma](https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Int
 
  deployed URL:  "[Github](https://github.com/atulyakumarece26-bit/UIUX_Frontend_Task_Atulya_Kumar)"  here  published.
  
- ### Live Demo
+ ## Live Demo
 
-[Live Demo](https://vercel.com/atulyakumarece26-bits-projects/uiux-frontend-task-atulya-kumar)
+ [live demo](https://uiux-frontend-task-atulya-kumar.vercel.app/)
 
