@@ -97,6 +97,11 @@ See the ([screenshots](https://drive.google.com/drive/folders/1NQrBJG0nWKYzskp2a
 ## Figma link
 figma link: [Figma](https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Interface?t=nlPsBfK9k6hs6fEQ-20&fullscreen=1)` —  Figma prototype URL .
 
-## Live demo link
+## Github link
 
  deployed URL:  "[Github](https://github.com/atulyakumarece26-bit/UIUX_Frontend_Task_Atulya_Kumar)"  here  published.
+ 
+ ### Live Demo
+
+[Live Demo](https://vercel.com/atulyakumarece26-bits-projects/uiux-frontend-task-atulya-kumar)
+
