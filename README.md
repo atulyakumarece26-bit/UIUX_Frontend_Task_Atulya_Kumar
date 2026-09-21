@@ -92,7 +92,7 @@ image scaling and tap-target accessibility at 1440, 1024, 768 and 375 px widths.
 
 ## Screenshots
 
-See the `02_Screenshots` folder of the submission (desktop and mobile captures).
+See the `[screenshots](https://drive.google.com/drive/folders/1NQrBJG0nWKYzskp2aFB-HnvFJh6-F8l0?usp=drive_link)` folder of the submission (desktop and mobile captures).
 
 ## Figma link
 figma link: [Figma](https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Interface?t=nlPsBfK9k6hs6fEQ-20&fullscreen=1)` —  Figma prototype URL .
