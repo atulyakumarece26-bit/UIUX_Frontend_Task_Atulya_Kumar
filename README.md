@@ -103,5 +103,5 @@ figma link: [Figma](https://www.figma.com/make/Jwf2KepPUvPhL1uVzUZDex/Design-Int
  
  ## Live Demo
 
- [live demo](https://uiux-frontend-task-atulya-kumar.vercel.app/)
+Live Demo:  [live demo](https://uiux-frontend-task-atulya-kumar.vercel.app/)
 
