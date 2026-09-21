@@ -100,4 +100,4 @@ See the `02_Screenshots` folder of the submission (desktop and mobile captures).
 
 ## Live demo link
 
- deployed URL (GitHub Pages / Netlify) here  published.
+ deployed URL  "[Github](https://github.com/atulyakumarece26-bit/UIUX_Frontend_Task_Atulya_Kumar)"  here  published.
