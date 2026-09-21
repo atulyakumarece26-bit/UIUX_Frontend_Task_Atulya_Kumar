@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dashboard — DroneTV Member Area</title>
+<meta name="description" content="Track flight missions, course progress and delivered media files from your DroneTV member dashboard." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html" aria-label="DroneTV home">
+      <span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="3" /><path d="M9.5 9.5 5 5M14.5 9.5 19 5M9.5 14.5 5 19M14.5 14.5 19 19" /></svg></span>
+      DroneTV
+    </a>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="services.html">Services</a></li>
+        <li><a class="nav__link" href="courses.html">Courses</a></li>
+        <li><a class="nav__link" href="dashboard.html" aria-current="page">Dashboard</a></li>
+        <li><a class="btn btn--ghost btn--sm" href="index.html" id="logout-mobile">Sign out</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--ghost btn--sm" href="index.html" id="logout">Sign out</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="dash">
+    <aside class="dash__side">
+      <nav class="dash-nav" aria-label="Dashboard sections">
+        <a href="#" data-panel="overview" data-title="Overview" class="is-active" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg> Overview</a>
+        <a href="#" data-panel="missions" data-title="My missions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M12 6v4M7 10h8a3 3 0 0 1 3 3v2H9a2 2 0 0 1-2-2z"/><path d="M18 15h3M9 19h8"/></svg> Missions</a>
+        <a href="#" data-panel="courses" data-title="My courses"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2 8 10-4 10 4-10 4z"/><path d="M6 10v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg> Courses</a>
+        <a href="#" data-panel="media" data-title="Media library"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 5l-2 4M13 5l-2 4M18 5l-2 4"/></svg> Media library</a>
+        <a href="#" data-panel="account" data-title="Account settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg> Settings</a>
+      </nav>
+    </aside>
+
+    <section class="dash__main">
+      <div class="dash__head">
+        <div>
+          <span class="eyebrow">Signed in as Priya Nair</span>
+          <h1 id="dash-title" style="font-size:2rem;margin:0">Overview</h1>
+        </div>
+        <a class="btn btn--primary btn--sm" href="services.html">Book a mission</a>
+      </div>
+
+      <!-- OVERVIEW -->
+      <div class="dash__panel" id="panel-overview">
+        <div class="kpi-grid">
+          <div class="kpi"><div class="kpi__label">Active missions</div><div class="kpi__value" data-count="3">0</div><div class="kpi__delta">1 flying today</div></div>
+          <div class="kpi"><div class="kpi__label">Flight hours</div><div class="kpi__value" data-count="128">0</div><div class="kpi__delta">+12 this month</div></div>
+          <div class="kpi"><div class="kpi__label">Courses in progress</div><div class="kpi__value" data-count="2">0</div><div class="kpi__delta">1 assessment due</div></div>
+          <div class="kpi"><div class="kpi__label">Files delivered</div><div class="kpi__value" data-count="46">0</div><div class="kpi__delta">6 new this week</div></div>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Course progress</h3>
+            <p style="margin-top:1rem">Mapping &amp; Photogrammetry — 72%</p>
+            <div class="progress"><div class="progress__bar" data-value="72"></div></div>
+            <p style="margin-top:1.2rem">Cinematic Aerial Craft — 35%</p>
+            <div class="progress"><div class="progress__bar" data-value="35"></div></div>
+          </article>
+          <article class="card">
+            <h3>Upcoming</h3>
+            <ul class="check-list" style="margin-top:1rem">
+              <li>Solar park thermal survey — Tue, 09:00</li>
+              <li>Assessment: GCP placement — Thu, 18:00</li>
+              <li>Client review: Himalaya cut 3 — Fri, 15:30</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <!-- MISSIONS -->
+      <div class="dash__panel" id="panel-missions" hidden>
+        <div class="table-wrap">
+          <table>
+            <caption class="sr-only">Your recent and upcoming drone missions</caption>
+            <thead><tr><th scope="col">Mission</th><th scope="col">Site</th><th scope="col">Date</th><th scope="col">Status</th></tr></thead>
+            <tbody>
+              <tr><td>Thermal survey</td><td>Bhadla Solar Park</td><td>24 Sep 2026</td><td><span class="badge badge--live">Scheduled</span></td></tr>
+              <tr><td>Progress capture</td><td>Pune Metro — Phase 2</td><td>19 Sep 2026</td><td><span class="badge badge--live">Delivered</span></td></tr>
+              <tr><td>Crop health scan</td><td>Nashik vineyards</td><td>12 Sep 2026</td><td><span class="badge badge--live">Delivered</span></td></tr>
+              <tr><td>Brand film</td><td>Coorg estate</td><td>02 Oct 2026</td><td><span class="badge badge--draft">Planning</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- COURSES -->
+      <div class="dash__panel" id="panel-courses" hidden>
+        <div class="grid grid--2">
+          <article class="card">
+            <h3>Mapping &amp; Photogrammetry</h3>
+            <p>Module 6 of 8 — Ground control points</p>
+            <div class="progress"><div class="progress__bar" data-value="72"></div></div>
+            <div class="course-card__meta"><span class="badge badge--due">Assessment due Thu</span></div>
+            <a class="btn btn--primary btn--sm" href="courses.html" style="margin-top:1rem">Resume module</a>
+          </article>
+          <article class="card">
+            <h3>Cinematic Aerial Craft</h3>
+            <p>Module 2 of 5 — Camera movement</p>
+            <div class="progress"><div class="progress__bar" data-value="35"></div></div>
+            <div class="course-card__meta"><span>Next live session: Sat, 11:00</span></div>
+            <a class="btn btn--ghost btn--sm" href="courses.html" style="margin-top:1rem">Resume module</a>
+          </article>
+        </div>
+      </div>
+
+      <!-- MEDIA -->
+      <div class="dash__panel" id="panel-media" hidden>
+        <div class="grid grid--3">
+          <article class="card course-card">
+            <div class="course-card__media"><span class="tag">ProRes</span><img src="assets/hero.jpg" alt="Sunrise valley aerial clip" loading="lazy" /></div>
+            <div class="course-card__body"><h3>Himalaya_cut3.mov</h3><div class="course-card__meta"><span>4.2 GB</span><span>·</span><span>18 Sep</span></div></div>
+          </article>
+          <article class="card course-card">
+            <div class="course-card__media"><span class="tag">GeoTIFF</span><img src="assets/survey.jpg" alt="Solar park orthomosaic" loading="lazy" /></div>
+            <div class="course-card__body"><h3>Bhadla_ortho.tif</h3><div class="course-card__meta"><span>1.8 GB</span><span>·</span><span>15 Sep</span></div></div>
+          </article>
+          <article class="card course-card">
+            <div class="course-card__media"><span class="tag">JPEG set</span><img src="assets/pilot.jpg" alt="Field capture stills" loading="lazy" /></div>
+            <div class="course-card__body"><h3>Nashik_stills.zip</h3><div class="course-card__meta"><span>640 MB</span><span>·</span><span>12 Sep</span></div></div>
+          </article>
+        </div>
+      </div>
+
+      <!-- ACCOUNT -->
+      <div class="dash__panel" id="panel-account" hidden>
+        <form class="card" style="max-width:520px" data-demo-form="Profile updated.">
+          <h3>Account settings</h3>
+          <div class="field"><label for="acc-name">Full name</label><input id="acc-name" type="text" value="Priya Nair" /></div>
+          <div class="field"><label for="acc-email">Email</label><input id="acc-email" type="email" value="priya@skyframe.in" /></div>
+          <div class="field"><label for="acc-role">Account type</label>
+            <select id="acc-role"><option>Client</option><option selected>Student &amp; client</option><option>Pilot</option></select>
+          </div>
+          <label class="checkbox" style="margin:0.5rem 0 1.2rem"><input type="checkbox" checked /> Email me mission status updates</label>
+          <button class="btn btn--primary" type="submit">Save changes</button>
+        </form>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

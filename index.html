@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DroneTV — India's Drone Media, Training &amp; Services Network</title>
+<meta name="description" content="DroneTV brings drone news, certified pilot training and professional aerial services together in one platform for India's drone ecosystem." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html" aria-label="DroneTV home">
+      <span class="logo__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="3" /><path d="M9.5 9.5 5 5M14.5 9.5 19 5M9.5 14.5 5 19M14.5 14.5 19 19" />
+        </svg>
+      </span>
+      DroneTV
+    </a>
+
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+        <li><a class="nav__link" href="services.html">Services</a></li>
+        <li><a class="nav__link" href="courses.html">Courses</a></li>
+        <li><a class="nav__link" href="index.html#featured">Media</a></li>
+        <li><a class="nav__link" href="login.html">Login</a></li>
+        <li class="nav__mobile-action"><a class="btn btn--ghost btn--sm" href="dashboard.html">Dashboard</a></li>
+        <li class="nav__mobile-action"><a class="btn btn--primary btn--sm" href="courses.html">Browse courses</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn--ghost btn--sm" href="dashboard.html">Dashboard</a>
+      <a class="btn btn--primary btn--sm" href="courses.html">Browse courses</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img src="assets/hero.jpg" alt="Drone flying over a misty mountain valley at sunrise" width="1600" height="1100" />
+    </div>
+    <div class="container">
+      <div class="hero__inner">
+       
+        <h1>See the sky differently.</h1>
+        <p>DroneTV connects India's drone community — broadcast-grade aerial media, DGCA-aligned pilot training, and enterprise survey services, all under one roof.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="services.html">Explore services</a>
+          <a class="btn btn--ghost" href="courses.html">Start training →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section section--tight section--alt">
+    <div class="container">
+      <div class="stats reveal">
+        <div class="stat"><div class="stat__num" data-count="12500" data-suffix="+">0</div><div class="stat__label">Pilots trained</div></div>
+        <div class="stat"><div class="stat__num" data-count="480" data-suffix="+">0</div><div class="stat__label">Missions flown</div></div>
+        <div class="stat"><div class="stat__num" data-count="36">0</div><div class="stat__label">Cities covered</div></div>
+        <div class="stat"><div class="stat__num" data-count="4.8">0</div><div class="stat__label">Average rating</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">What we do</span>
+        <h2>Services built for every altitude</h2>
+        <p>From a single rooftop inspection to a nationwide mapping programme — one team, one standard of quality.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 5l-2 4M13 5l-2 4M18 5l-2 4"/></svg></div>
+          <h3>Aerial cinematography</h3>
+          <p>6K broadcast footage for film, events and brand campaigns, delivered colour-graded within 72 hours.</p>
+          <a class="card__link" href="services.html">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m9 4-6 2v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg></div>
+          <h3>Survey &amp; mapping</h3>
+          <p>Photogrammetry, LiDAR and orthomosaics with survey-grade accuracy for construction and mining.</p>
+          <a class="card__link" href="services.html">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V8"/><path d="M12 12c-3 0-4-2-4-4 3 0 4 2 4 4zM12 12c3 0 4-2 4-4-3 0-4 2-4 4zM12 7c-2.5 0-3-2-3-3.5 2.5 0 3 2 3 3.5z"/></svg></div>
+          <h3>Agri intelligence</h3>
+          <p>NDVI crop health analysis and precision spraying routes that cut input costs season on season.</p>
+          <a class="card__link" href="services.html">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M6 21V8l12-4v17"/><path d="M6 12h12M10 21v-5h4v5"/></svg></div>
+          <h3>Asset inspection</h3>
+          <p>Thermal and visual inspection of towers, solar farms and pipelines without shutting operations down.</p>
+          <a class="card__link" href="services.html">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2 8 10-4 10 4-10 4z"/><path d="M6 10v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg></div>
+          <h3>Pilot certification</h3>
+          <p>Classroom, simulator and field hours that prepare you for DGCA remote pilot certification.</p>
+          <a class="card__link" href="courses.html">Learn more →</a>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19 12 9l7 10z"/><path d="M4 9a8 8 0 0 1 8-8M7 9a5 5 0 0 1 5-5"/></svg></div>
+          <h3>Live broadcast</h3>
+          <p>Low-latency aerial feeds for sports, elections and public events, with an on-ground control unit.</p>
+          <a class="card__link" href="services.html">Learn more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="section section--alt" id="courses">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Training</span>
+        <h2>Learn to fly, professionally</h2>
+        <p>Structured programmes taught by working commercial pilots — not hobbyists.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card course-card reveal">
+          <div class="course-card__media"><span class="tag">Beginner</span><img src="assets/pilot.jpg" alt="Pilot operating a drone with a live camera feed" loading="lazy" width="1200" height="900" /></div>
+          <div class="course-card__body">
+            <h3>Remote Pilot Foundation</h3>
+            <p>Airspace rules, pre-flight checks and your first 10 supervised flight hours.</p>
+            <div class="course-card__meta"><span>6 weeks</span><span>·</span><span>₹24,000</span><span>·</span><span>★ 4.9</span></div>
+          </div>
+        </article>
+        <article class="card course-card reveal">
+          <div class="course-card__media"><span class="tag">Intermediate</span><img src="assets/survey.jpg" alt="Aerial survey of a solar farm and industrial site" loading="lazy" width="1200" height="900" /></div>
+          <div class="course-card__body">
+            <h3>Mapping &amp; Photogrammetry</h3>
+            <p>Flight planning, GCPs and turning raw captures into client-ready deliverables.</p>
+            <div class="course-card__meta"><span>8 weeks</span><span>·</span><span>₹38,000</span><span>·</span><span>★ 4.8</span></div>
+          </div>
+        </article>
+        <article class="card course-card reveal">
+          <div class="course-card__media"><span class="tag">Advanced</span><img src="assets/hero.jpg" alt="Drone in flight above a mountain valley" loading="lazy" width="1600" height="1100" /></div>
+          <div class="course-card__body">
+            <h3>Cinematic Aerial Craft</h3>
+            <p>Camera movement, lighting and edit workflow for broadcast-quality aerial storytelling.</p>
+            <div class="course-card__meta"><span>5 weeks</span><span>·</span><span>₹29,000</span><span>·</span><span>★ 4.9</span></div>
+          </div>
+        </article>
+      </div>
+      <p style="margin-top:2rem"><a class="btn btn--ghost" href="courses.html">View all courses</a></p>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div class="split__body reveal">
+          <span class="eyebrow">Why DroneTV</span>
+          <h2>One partner from licence to delivery</h2>
+          <p>Most operators either teach or fly. We do both — which means the pilots on your project were trained to the same standard we hold ourselves to.</p>
+          <ul class="check-list">
+            <li>Certified crews with full insurance cover on every mission</li>
+            <li>Permission handling and airspace clearance managed for you</li>
+            <li>Data delivered in your format — CAD, GIS, ProRes or raw</li>
+            <li>Dedicated client dashboard to track missions and deliverables</li>
+          </ul>
+          <a class="btn btn--primary" href="services.html">See how it works</a>
+        </div>
+        <div class="split__media reveal">
+          <img src="assets/pilot.jpg" alt="DroneTV pilot reviewing a live aerial feed in the field" loading="lazy" width="1200" height="900" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="section section--alt" id="featured">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Featured</span>
+        <h2>From the DroneTV newsroom</h2>
+      </div>
+      <div class="feature-strip">
+        <a class="feature-tile reveal" href="index.html#featured">
+          <img src="assets/hero.jpg" alt="Aerial sunrise footage from a DroneTV documentary" loading="lazy" />
+          <div class="feature-tile__body">
+            <h3>Documentary: Mapping the Himalaya</h3>
+            <p>A 40-day expedition capturing glacier retreat from 4,800 metres.</p>
+          </div>
+        </a>
+        <div class="feature-stack">
+          <a class="feature-tile reveal" href="index.html#featured">
+            <img src="assets/survey.jpg" alt="Solar farm inspection footage" loading="lazy" />
+            <div class="feature-tile__body"><h3>Inspecting India's largest solar park</h3><p>Thermal survey, zero downtime.</p></div>
+          </a>
+          <a class="feature-tile reveal" href="index.html#featured">
+            <img src="assets/pilot.jpg" alt="Interview with a commercial drone pilot" loading="lazy" />
+            <div class="feature-tile__body"><h3>Pilot diaries: the first 100 hours</h3><p>What certification doesn't teach you.</p></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">How it works</span>
+        <h2>Four steps to wheels up</h2>
+      </div>
+      <div class="steps reveal">
+        <div class="step"><h3>Brief</h3><p>Tell us the site, the output and the deadline.</p></div>
+        <div class="step"><h3>Plan</h3><p>We handle permissions, crew and flight planning.</p></div>
+        <div class="step"><h3>Fly</h3><p>Certified pilots capture, with QC on site.</p></div>
+        <div class="step"><h3>Deliver</h3><p>Processed data lands in your dashboard.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h2>Ready to get your project in the air?</h2>
+          <p>Tell us what you need and we'll come back with a flight plan and a quote within one working day.</p>
+        </div>
+        <a class="btn btn--dark" href="login.html">Book a consultation</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="3" /><path d="M9.5 9.5 5 5M14.5 9.5 19 5M9.5 14.5 5 19M14.5 14.5 19 19" /></svg>
+          </span>
+          DroneTV
+        </a>
+        <p style="margin-top:1rem;max-width:34ch">Media, training and aerial services for India's drone ecosystem.</p>
+        <form class="subscribe" data-demo-form="Subscribed — watch your inbox for the next drop.">
+          <label class="sr-only" for="news-email">Email address</label>
+          <input id="news-email" type="email" placeholder="you@company.com" required />
+          <button class="btn btn--primary btn--sm" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="index.html">About</a><br /><a href="index.html#featured">Newsroom</a><br /><a href="services.html">Careers</a><br /><a href="index.html">Contact</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="services.html">Cinematography</a><br /><a href="services.html">Survey &amp; mapping</a><br /><a href="services.html">Inspection</a><br /><a href="services.html">Agriculture</a>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <a href="courses.html">All courses</a><br /><a href="courses.html">Certification</a><br /><a href="login.html">Student login</a><br /><a href="dashboard.html">Dashboard</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> DroneTV. Concept redesign — student assignment project.</span>
+      <span>Privacy · Terms · Sitemap</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

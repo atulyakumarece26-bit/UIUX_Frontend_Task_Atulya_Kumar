@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login — DroneTV Account Access</title>
+<meta name="description" content="Sign in to your DroneTV account to track missions, deliverables and course progress from one dashboard." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html" aria-label="DroneTV home">
+      <span class="logo__mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="3" /><path d="M9.5 9.5 5 5M14.5 9.5 19 5M9.5 14.5 5 19M14.5 14.5 19 19" /></svg></span>
+      DroneTV
+    </a>
+    <nav class="nav" id="primary-nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="index.html">Home</a></li>
+        <li><a class="nav__link" href="services.html">Services</a></li>
+        <li><a class="nav__link" href="courses.html">Courses</a></li>
+        <li><a class="nav__link" href="index.html#featured">Media</a></li>
+        <li><a class="nav__link" href="login.html" aria-current="page">Login</a></li>
+        <li class="nav__mobile-action"><a class="btn btn--ghost btn--sm" href="dashboard.html">Dashboard</a></li>
+        <li class="nav__mobile-action"><a class="btn btn--primary btn--sm" href="courses.html">Browse courses</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--ghost btn--sm" href="dashboard.html">Dashboard</a>
+      <a class="btn btn--primary btn--sm" href="courses.html">Browse courses</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="auth">
+    <aside class="auth__aside">
+      <img src="assets/hero.jpg" alt="Drone flying over a mountain valley at sunrise" width="1600" height="1100" />
+      <div class="auth__aside-body">
+        <span class="eyebrow">Member access</span>
+        <h2>Your missions, courses and deliverables in one place</h2>
+        <p>Track flight schedules, download processed data and pick up your training where you left off.</p>
+      </div>
+    </aside>
+
+    <section class="auth__form-wrap">
+      <div class="auth__form">
+        <h1 style="font-size:2rem">Welcome back</h1>
+        <p>Sign in to continue to your DroneTV dashboard.</p>
+
+        <form id="login-form" novalidate>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" aria-describedby="email-error" />
+            <span class="field__error" id="email-error" role="alert"></span>
+          </div>
+
+          <div class="field">
+            <label for="password">Password</label>
+            <div class="password-wrap">
+              <input id="password" name="password" type="password" autocomplete="current-password" placeholder="••••••••" aria-describedby="password-error" />
+              <button class="password-toggle" type="button" data-target="password" aria-label="Show password">Show</button>
+            </div>
+            <span class="field__error" id="password-error" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label class="checkbox"><input type="checkbox" checked /> Keep me signed in</label>
+            <a href="login.html" style="color:var(--c-accent-2)">Forgot password?</a>
+          </div>
+
+          <button class="btn btn--primary btn--block" type="submit" style="margin-top:1.5rem">Sign in</button>
+        </form>
+
+        <div class="divider">or continue with</div>
+        <div class="social-row">
+          <button class="btn btn--ghost" type="button" onclick="this.blur()">Google</button>
+          <button class="btn btn--ghost" type="button" onclick="this.blur()">Apple</button>
+        </div>
+
+        <p class="form-note">New to DroneTV? <a href="courses.html">Create an account</a></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:0;margin-top:0;padding-top:0">
+      <span>© <span data-year>2026</span> DroneTV. Concept redesign — student assignment project.</span>
+      <span>Privacy · Terms · Support</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
